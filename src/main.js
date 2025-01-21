@@ -1,0 +1,9 @@
+import './js/api';
+import './js/modal-exercises';
+import './js/modal-rating';
+import './js/quote';
+import './js/filters';
+import './js/search';
+import './js/exercises';
+import './js/favorites';
+import './js/mobile-menu';
