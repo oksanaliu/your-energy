@@ -40,7 +40,7 @@
     display: block;
     width: 32px;
     height: 32px;
-    background-image: url('../img/fav-img/icon-human.svg');
+    background-image: url('./img/favorites/icon-human.svg');
   }
 
   .fav-quote-title::after {
@@ -51,7 +51,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url('../img/fav-img/icon-commas.svg');
+    background-image: url('./img/favorites/icon-commas.svg');
   }
 
   .fav-quote-text {
@@ -86,7 +86,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url('../img/fav-img/fluent_food.svg');
+    background-image: url('./img/favorites/fluent_food.svg');
   }
 
   .fav-text-motivation {
