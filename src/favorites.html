@@ -16,7 +16,51 @@
       <load src="./partials/header.html" />
     </header>
 
-    <main></main>
+    <main>
+      <section class="fav-info-day">
+        <div class="fav-container">
+          <h1 class="fav-title">Favorites</h1>
+          <div class="fav-wrapper-primary">
+            <div class="fav-bar">
+              <div class="fav-box1-info">
+                <h2 class="fav-quote-title">Quote of the day</h2>
+                <p class="fav-quote-text">
+                  A lot of times I find that people who are blessed with the
+                  most talent don't ever develop that attitude, and the ones who
+                  aren't blessed in that way are the most competitive and have
+                  the biggest heart.
+                </p>
+                <p class="fav-quote-signature">Tom Brady</p>
+              </div>
+              <div class="wrapper-img-content">
+                <div class="fav-box2-info">
+                  <div class="time-wrap">
+                    <p class="time-info">110 min</p>
+                    <p class="fav-text-motivation">Daily norm of sports</p>
+                  </div>
+                </div>
+                <div class="image-wrapper">
+                  <img
+                    srcset="
+                      ./img/favorites/two-girls.jpg    1x,
+                      ./img/favorites/two-girls@2x.jpg 2x
+                    "
+                    src="./img/favorites/two-girls.jpg"
+                    alt="two girls"
+                  />
+                </div>
+              </div>
+            </div>
+            <p class="fav-text-default">
+              It appears that you haven't added any exercises to your favorites
+              yet. To get started, you can add exercises that you like to your
+              favorites for easier access in the future.
+            </p>
+            <ul class="fav-list-card"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <load src="./partials/modal-exercise.html" />
     <load src="./partials/modal-rating.html" />

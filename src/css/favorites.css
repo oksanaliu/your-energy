@@ -1,3 +1,269 @@
-div {
+@media screen and (min-width: 375px) {
+  .fav-container {
+    margin: 0 auto;
+    max-width: 375px;
+    padding: 0 20px;
+  }
+
+  .fav-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.36;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+    color: var(--black);
+  }
+
+  .fav-box1-info {
+    position: relative;
+    border-radius: 20px;
+    width: 335px;
+    padding: 20px;
+    padding-left: 72px;
+    margin-bottom: 20px;
+    background-color: var(--black);
+  }
+
+  .fav-quote-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 8px;
+    color: var(--light);
+  }
+
+  .fav-quote-title::before {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    content: '';
     display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url('./img/favorites/icon-human.svg');
+  }
+
+  .fav-quote-title::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./img/favorites/icon-commas.svg');
+  }
+
+  .fav-quote-text {
+    width: 243px;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 16px;
+    color: rgba(244, 244, 244, 0.6);
+  }
+
+  .fav-quote-signature {
+    font-size: 14px;
+    line-height: 1.29;
+    color: var(--light);
+  }
+
+  .fav-box2-info {
+    position: relative;
+    border-radius: 20px;
+    width: 335px;
+    padding: 20px;
+    padding-top: 55px;
+    margin-bottom: 20px;
+    background-color: var(--white);
+  }
+
+  .fav-box2-info::before {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./img/favorites/fluent_food.svg');
+  }
+
+  .fav-text-motivation {
+    font-size: 14px;
+    line-height: 1.29;
+    color: rgba(36, 36, 36, 0.6);
+  }
+
+  .time-info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 6px;
+    color: var(--black);
+  }
+
+  .image-wrapper {
+    border-radius: 20px;
+    width: 335px;
+    height: 119px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: var(--white);
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .fav-text-default {
+    width: 318px;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: justify;
+    text-align-last: center;
+    color: var(--black);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .fav-title {
+    font-size: 44px;
+    line-height: 1.09;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+  }
+
+  .fav-box1-info {
+    border-radius: 20px;
+    width: 704px;
+    padding: 40px;
+    padding-left: 90px;
+    margin-bottom: 16px;
+  }
+
+  .fav-quote-title {
+    font-size: 24px;
+    line-height: 1.33;
+    margin-bottom: 6px;
+  }
+
+  .fav-quote-title::before {
+    top: 40px;
+    left: 40px;
+  }
+
+  .fav-quote-title::after {
+    top: 40px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .fav-quote-text {
+    width: 574px;
+    margin-bottom: 18px;
+  }
+
+  .fav-quote-signature {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .fav-box2-info {
+    width: 344px;
+    padding: 25px;
+    padding-top: 60px;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+
+  .fav-box2-info::before {
+    top: 25px;
+    left: 25px;
+  }
+
+  .fav-text-motivation {
+    font-size: 14px;
+    line-height: 1.29;
+    color: rgba(36, 36, 36, 0.6);
+  }
+
+  .time-info {
+    font-size: 24px;
+    line-height: 1.33;
+  }
+
+  .wrapper-img-content {
+    display: flex;
+  }
+
+  .image-wrapper {
+    width: 344px;
+    height: 141px;
+    margin-bottom: 0;
+  }
+
+  .fav-text-default {
+    width: 554px;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 132px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .fav-wrapper-primary {
+    display: flex;
+    align-items: center;
+  }
+
+  .fav-container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 32px;
+  }
+
+  .fav-box1-info {
+    width: 494px;
+  }
+
+  .fav-quote-text {
+    width: 364px;
+  }
+
+  .fav-box2-info {
+    width: 239px;
+    margin-right: 16px;
+  }
+
+  .fav-box2-info::before {
+    top: 25px;
+    left: 25px;
+  }
+
+  .image-wrapper {
+    width: 239px;
+    height: 141px;
+  }
+
+  .fav-text-default {
+    margin-top: 0;
+    text-align: unset;
+  }
 }
