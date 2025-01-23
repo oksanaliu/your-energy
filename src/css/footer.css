@@ -1,8 +1,8 @@
 .footer {
     background-color: var(--black);
     color: var(--light);
-    padding: 40px 16px;
-    text-align: center;
+    padding: 40px 20px 10px 20px;
+    text-align: left;
 }
 
 .footer__container {
@@ -10,14 +10,16 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
     gap: 40px;
 }
+
+
 
 .footer__logo svg {
     fill: var(--light);
     width: 132px;
     height: 24px;
-    margin: 0 auto;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -28,7 +30,7 @@
 .footer__socials {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 20px;
 }
 
 .footer__socials a {
@@ -37,13 +39,15 @@
     align-items: center;
     width: 44px;
     height: 44px;
-    background-color: var(--light);
+    background-color: transparent;
     border-radius: 50%;
+    border: 1px solid #F4F4F41A;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__socials a:hover {
     background-color: var(--grey);
+    border-color: var(--grey);
 }
 
 .footer__socials svg {
@@ -53,7 +57,7 @@
 }
 
 .footer__socials a:hover svg {
-    fill: var(--light);
+    fill: var(--black);
 }
 
 .footer__slogan {
