@@ -8,6 +8,7 @@ import './js/exercises';
 import { showCategories } from './js/categories';
 import './js/favorites';
 import './js/mobile-menu';
+import './js/header';
 
 showCategories('Muscles', 1)
   .then(pages =>
