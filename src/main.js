@@ -7,3 +7,4 @@ import './js/search';
 import './js/exercises';
 import './js/favorites';
 import './js/mobile-menu';
+import './js/header';
