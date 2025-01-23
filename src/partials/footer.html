@@ -1,3 +1,42 @@
-<div class="footer">
-  <div class="container">footer</div>
-</div>
+<footer class="footer">
+  <div class="footer__container">
+    <a href="index.html" class="footer__logo">
+      <svg width="132" height="24" aria-label="Logo">
+        <use href="#"></use>
+      </svg>
+    </a>
+
+    <ul class="footer__socials">
+      <li>
+        <a href="https://www.facebook.com/goITclub/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg width="24" height="24">
+            <use href="#"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/goitclub/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg width="24" height="24">
+            <use href="#"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <svg width="24" height="24">
+            <use href="#"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <p class="footer__slogan">Transforming your <strong>body</strong> shape with us</p>
+
+    <form class="footer__form" id="subscribeForm">
+      <h3 class="footer__form-title">Subscribe and learn about new exercises!</h3>
+      <input type="email" class="footer__input" placeholder="Email" required
+        pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" />
+      <button type="submit" class="footer__button">Send</button>
+    </form>
+  </div>
+</footer>
