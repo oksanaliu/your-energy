@@ -1,42 +1,41 @@
 <footer class="footer">
   <div class="footer__container">
-    <a href="index.html" class="footer__logo">
-      <svg width="132" height="24" aria-label="Logo">
-        <use href="../img/sprite.svg#logo"></use>
-      </svg>
-    </a>
-
-    <ul class="footer__socials">
-      <li>
-        <a href="https://www.facebook.com/goITclub/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <svg width="24" height="24">
-            <use href="../img/sprite.svg#facebook-icon"></use>
+    <div class="footer__logo-socials-wrapper">
+      <div class="footer__logo-container">
+        <a href="/index.html" class="footer__logo">
+          <svg width="132" height="24">
+            <use href="img/sprite.svg#logo"></use>
           </svg>
         </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/goitclub/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <svg width="24" height="24">
-            <use href="../img/sprite.svg#instagram-icon"></use>
-          </svg>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-          <svg width="24" height="24">
-            <use href="../img/sprite.svg#youtube-icon"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-
-    <p class="footer__slogan">Transforming your <strong>body</strong> shape with us</p>
-
-    <form class="footer__form" id="subscribeForm">
+      </div>
+      <ul class="footer__socials">
+        <li><a href="https://www.facebook.com/goITclub/"><svg>
+              <use href="img/sprite.svg#icon-facebook"></use>
+            </svg></a></li>
+        <li><a href="https://www.instagram.com/goitclub/"><svg>
+              <use href="img/sprite.svg#icon-instagram"></use>
+            </svg></a></li>
+        <li><a href="https://www.youtube.com/c/GoIT"><svg>
+              <use href="img/sprite.svg#icon-youtube"></use>
+            </svg></a></li>
+      </ul>
+    </div>
+    <div class="footer__slogan-container">
+      <p class="footer__slogan"> Transforming your <strong>body</strong> shape with us </p>
+    </div>
+    <form class="footer__form">
       <h3 class="footer__form-title">Subscribe and learn about new exercises!</h3>
-      <input type="email" class="footer__input" placeholder="Email" required
-        pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" />
+      <input type="email" class="footer__input" placeholder="Email" required />
       <button type="submit" class="footer__button">Send</button>
     </form>
+    <div class="footer__text-outer-wrap">
+      <p class="footer__text your-energy">Your Energy. All rights reserved.</p>
+      <div class="footer__text-inner-wrap">
+        <p class="footer__text privacy-policy__text">
+          <a href="#">Privacy Policy</a> / <a href="#">Terms of Service</a>
+        </p>
+        <p class="footer__text text-number">©2023</p>
+      </div>
+    </div>
   </div>
 </footer>
